@@ -28,7 +28,7 @@ jobs:
         IP_FILE: 'f74bjd2h2ko99f3j5'  # Ganti dengan nama file input proxy kamu
         API_URL: 'https://proxyip-check.vercel.app/{ip}:{port}'  # Ganti dengan API endpoint yang kamu pakai
       run: |
-        python update_proxy_status.py  # Jalankan skrip Python yang sudah kamu buat
+        python update_proxy_status3.py  # Jalankan skrip Python yang sudah kamu buat
 
     - name: Commit and push changes
       run: |
